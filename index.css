@@ -1,0 +1,290 @@
+*{
+    font-family: 'Euclid Circular B';
+    font-style: normal;
+}
+
+.bg-theme{
+    background-color: #193257;
+  
+  }
+  .solid{
+  width: 100%;
+  height: 0px;
+  border: 1px solid #9BA3AE;
+  }
+   .theme{
+    background-color: #051935;
+  }
+  .ms-10{
+    margin-left: 170px;
+  }
+  .ms-11{
+    margin-left: 470px;
+  }
+  .ms-6{
+    padding-left: 260px;
+  }
+  .banner{
+  width: 100%;
+  }
+  /**/
+  .mt{
+    margin-top: 70px;
+  }
+  .ml{
+    margin-left: 124px;
+  }
+  .mb{
+    margin-bottom: 50px;
+  }
+  .olcu{
+    width: 1109px;
+height: 577px;
+background: #FFFFFF;
+/* sha2 */
+display: flex;
+box-shadow: 0px 4px 18px rgba(55, 127, 240, 0.12);
+border-radius: 8px;
+  }
+  .right{
+    margin: 24px;
+    display: inline;
+    width: 523px;
+height: 521px;
+  }
+  .left{
+    margin: 24px;
+    display: inline;
+    width: 514px;
+    height: 457px;
+  }
+  .box{
+    margin: 19px 324px 35px 0;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 223px;
+    height: 34px;
+    background: rgba(55, 127, 240, 0.1);
+border-radius: 4px;
+  }
+  .tek{
+margin:8px 69px 8px 16px;
+    display: inline;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+
+/* Prime blue */
+
+color: #377FF0;
+  }
+  .azn{
+    margin-right: 16px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: right;
+
+/* Prime blue */
+
+color: #377FF0;
+
+  }
+  .textiphone{
+    margin-top: 10px;
+    font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+/* Prime dark */
+
+color: #051935;
+  }
+  .mehsul{
+    font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+
+/* Prime dark */
+
+color: #051935;
+  }
+  .bildirisbox{
+    width: 523px;
+height: 74px;
+    display: flex;
+    background: rgba(55, 127, 240, 0.1);
+border-radius: 4px;
+
+background: #FBFBFB;
+/* Gray 6 */
+
+border: 1px solid #F2F2F2;
+border-radius: 8px;
+  }
+  .icon{
+    display: inline;
+    width: 54px;
+height: 54px;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+  }
+  .alert{
+    width: 20px;
+    height: 20px;
+    margin: 20px 484px 27px  18px;
+  }
+  .bildiristext{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 457px;
+height: 54px;
+    font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: right;
+
+/* Prime blue */
+display: inline;
+color: #377FF0;
+  }
+  .foot1{
+  
+    display: inline;
+  }
+  .foot2{
+    margin-left: 120px;
+    display: inline;
+  }
+  .progress-bar{
+    background-color:#051935 !important;
+  }
+  .bar{
+    justify-content: space-between;
+    display: flex;
+    width: 523px;
+  }
+  .footerbar{
+    margin-top: 32px;
+    margin-right: 24px;
+  }
+
+.button{
+  width: 223px;
+  height: 48px;
+  margin-top: 34px;
+}
+.teklif {
+  display: inline;
+  margin-left: 56px;
+}
+.teklif a{
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: none;
+}
+/*Left*/
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerimg {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Six columns side by side */
+.column1 {
+  float: left;
+  width: 94px;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.imgcar{
+  width: 514px;
+height: 376px;
+}
+.imgcarfooter{
+  width: 90px;
+height: 65.93px;
+}
